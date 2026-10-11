@@ -6,7 +6,7 @@ public class TaskV {
         int n = input.nextInt();
         int last = n % 10;
 
-        if (n >= 11 && n <= 14) {
+        if (n % 100 >= 11 && n % 100 <= 14) {
             System.out.println(n + " korov");
         } else if (last == 1) {
             System.out.println(n + " korova");
